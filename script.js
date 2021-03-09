@@ -40,16 +40,16 @@ require([
           // in the content, it defaults to whatever may be set within the popupTemplate.
           type: "fields",
           fieldInfos: [{
-            fieldName: "POP00",
-            label: "2000 Population: ",
+            fieldName: "NHD_NAME",
+            label: "Neighborhood Name: ",
             visible: true,
             format: {
               digitSeparator: true,
               places: 0
             }
           }, {
-            fieldName: "POP10",
-            label: "2010 Population: ",
+            fieldName: "NHD_NUMTXT",
+            label: "Neighborhood Number: ",
             visible: true,
             format: {
               digitSeparator: true,
