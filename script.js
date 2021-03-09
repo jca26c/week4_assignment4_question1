@@ -33,7 +33,7 @@ require([
        **************************************************************/
 
       var template = { // autocasts as new PopupTemplate()
-        title: "Neighborhood {NHD_NAME}",
+        title: "Neighborhood Name and Number: {NHD_NUMTXT}",
         content: [{
           // It is also possible to set the fieldInfos outside of the content
           // directly in the popupTemplate. If no fieldInfos is specifically set
